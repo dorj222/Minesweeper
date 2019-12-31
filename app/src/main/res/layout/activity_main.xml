@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#00b7cc"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00b7cc"
+        android:paddingLeft="100dp"
+        android:paddingTop="20dp"
+        android:text="@string/restart_button"
+        android:textSize="20sp"
+
+        />
+
+    <Switch
+        android:id="@+id/swFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:showText="true"
+        android:text="@string/flag_switch"
+        android:textOff=""
+        android:textOn=""
+        android:textSize="25sp" />
+
+    <wabash.minesweeper.MineSweeper.View.MineSweeperView
+        android:id="@+id/mineSwView"
+        android:layout_width="370dp"
+        android:layout_height="370dp"
+        android:layout_below="@+id/btnReset"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
