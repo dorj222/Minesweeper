@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Mine Sweeper</string>
-    <string name="restart_button">Restart</string>
-    <string name="flag_switch">Flag</string>
+    <string name="restart_button">RESTART</string>
+    <string name="flag_switch">FLAG</string>
 </resources>
